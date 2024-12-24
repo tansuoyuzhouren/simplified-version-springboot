@@ -1,0 +1,8 @@
+com\simplified\springboot\Core\SpringApplication.class
+com\simplified\springboot\Server\WebServer.class
+com\simplified\springboot\AutoConfiguration.class
+com\simplified\springboot\Select\ImportSelect.class
+com\simplified\springboot\TomcatServer\TomcatWebServer.class
+com\simplified\WebServiceCondition\ConditionalOnClass.class
+com\simplified\WebServiceCondition\WebServiceCondition.class
+com\simplified\springboot\Core\SpringBootApplication.class
