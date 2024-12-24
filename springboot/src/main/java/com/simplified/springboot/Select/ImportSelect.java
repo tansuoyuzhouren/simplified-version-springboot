@@ -25,7 +25,6 @@ public class ImportSelect implements DeferredImportSelector {
 
         for (AutoConfiguration autoConfiguration : serviceLoader) {
 
-            System.out.println(autoConfiguration.getClass().getName());
             list.add(autoConfiguration.getClass().getName());
         }
 

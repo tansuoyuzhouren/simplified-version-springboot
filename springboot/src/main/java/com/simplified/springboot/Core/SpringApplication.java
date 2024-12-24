@@ -29,5 +29,4 @@ public class SpringApplication {
         WebServer bean = applicationContext.getBean(WebServer.class);
         bean.toStart(applicationContext);
     }
-
 }

@@ -21,6 +21,7 @@ public class WebServiceCondition implements Condition {
         Map<String, Object> annotationAttributes = metadata.getAnnotationAttributes(ConditionalOnClass.class.getName());
         String value = (String) annotationAttributes.get("value");
 
+
         try {
             context.getClassLoader().loadClass(value);
             return true;
